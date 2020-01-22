@@ -1,0 +1,28 @@
+
+$light-shades : #F7F7F5;
+$light-accent : #ABAA86;
+$brand-color  : #5285BC;
+$dark-accent  : #45A5BB;
+$dark-shades  : #21334A;
+
+$white    : $light-shades;
+$gray-100 : mix($dark-shades, $light-shades, 10);
+$gray-200 : mix($dark-shades, $light-shades, 20);
+$gray-300 : mix($dark-shades, $light-shades, 30);
+$gray-400 : mix($dark-shades, $light-shades, 40);;
+$gray-500 : mix($dark-shades, $light-shades, 50);;
+$gray-600 : mix($dark-shades, $light-shades, 60);;
+$gray-700 : mix($dark-shades, $light-shades, 70);;
+$gray-800 : mix($dark-shades, $light-shades, 80);;
+$gray-900 : mix($dark-shades, $light-shades, 90);;
+$black    : $dark-shades;
+
+$primary  : $brand-color;
+$success  : mix(green,  $brand-color, 80);  // #77ad4a;
+$warning  : mix(orange, $brand-color, 80);  // #f49d12;
+$danger   : mix(red,    $brand-color, 80);  // #f44336;
+$info     : mix(cyan,   $brand-color, 50);
+
+$yiq-contrasted-threshold:  200;
+
+// $enable-gradients:  true;

@@ -1,0 +1,21 @@
+@import "../fonts/Roboto/stylesheet.css";
+
+.grey-box {
+  width: 100px;
+  height: 20px;
+}
+
+.grey-box-light { background: $white; }
+.grey-box-100 { background: $gray-100;}
+.grey-box-200 { background: $gray-200;}
+.grey-box-300 { background: $gray-300;}
+.grey-box-400 { background: $gray-400;}
+.grey-box-500 { background: $gray-500;}
+.grey-box-600 { background: $gray-600;}
+.grey-box-700 { background: $gray-700;}
+.grey-box-800 { background: $gray-800;}
+.grey-box-900 { background: $gray-900;}
+.grey-box-dark { background: $black; }
+
+@import "./_variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
